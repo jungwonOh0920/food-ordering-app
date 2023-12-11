@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <div className='grid grid-cols-2'>
             <div>
-                <h1 className='text-4xl font-semibold'>Everything is better with Fried chicken</h1>
+                <h1 className='text-4xl font-semibold leading-normal'>Everything is better with Fried chicken</h1>
                 <p className='text-gray-400'>Fried chicken is the missing peice that makes every day complete, a simple yet delicious joy in life.</p>
                 <div className='mt-4 flex gap-x-4'>
                     <button className='bg-primary text-white px-4 py-2 rounded-full flex gap-x-2'>
@@ -21,7 +21,7 @@ const Hero = () => {
             </div>
             <div className='relative'>
                 <Image
-                    src='/images/fried-chicken.png'
+                    src='/images/yubu.png'
                     className='object-contain'
                     fill
                     alt='chicken'
