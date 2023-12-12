@@ -19,14 +19,14 @@ const Hero = () => {
                     </button>
                 </div>
             </div>
-            <div className='relative'>
+            <div className='relative' >
                 <Image
-                    src='/images/yubu.png'
+                    src='/images/yubu-round.png'
                     className='object-contain'
                     fill
-                    alt='chicken'
+                    alt='yubu tray'
                 />
-            </div>
+            </div >
         </div>
     )
 }
