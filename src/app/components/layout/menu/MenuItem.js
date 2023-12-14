@@ -9,7 +9,7 @@ const MenuItem = () => {
             </div>
             <h3 className='font-bold text-xl my-3'>Yubu</h3>
             <p p className='text-gray-400 text-sm' > Lorem ipsum dolor, sit amet consectetur adipisicing elit.Consequatur, et ?</p >
-            <button className='bg-primary text-white px-4 py-1 rounded-full flex items-center mx-auto my-3'>
+            <button className='bg-YBBrown text-primary px-4 py-1 rounded-full flex items-center mx-auto my-3'>
                 Add to Cart $5
             </button>
         </div >
