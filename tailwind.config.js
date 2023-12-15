@@ -8,7 +8,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#f13a01'
+        // primary: '#fcdf29',
+        primary: '#daa437',
+        YBGreen: '#d5f3d1',
+        YBDarkGreen: '#9aba95',
+        YBBlue: '#d5e9e8',
+        YBLightYellow: '#fff4aa',
+        YBBrown: '#6b2a24'
       }
     },
   },

@@ -6,27 +6,27 @@ const Hero = () => {
     return (
         <div className='grid grid-cols-2'>
             <div>
-                <h1 className='text-4xl font-semibold'>Everything is better with Fried chicken</h1>
-                <p className='text-gray-400'>Fried chicken is the missing peice that makes every day complete, a simple yet delicious joy in life.</p>
-                <div className='mt-4 flex gap-x-4'>
-                    <button className='bg-primary text-white px-4 py-2 rounded-full flex gap-x-2'>
+                <h1 className='text-4xl font-semibold leading-tight'>I’m not tofu-tally sure, but I think tofu is soy-yummy!</h1>
+                <p className='text-gray-400 my-4'>Fried rice wrapped by Yubu (Fried Tofu) with various toppings.</p>
+                <div className='flex gap-x-4'>
+                    <button className='bg-YBBrown text-primary px-4 py-2 rounded-full flex items-center gap-x-2'>
                         Order Now
                         <RightArrow />
                     </button>
-                    <button className='px-4 py-2 flex gap-x-2 border rounded-full'>
+                    <button className='px-4 py-2 flex items-center gap-x-2 border rounded-full'>
                         Learn more
                         <RightArrow />
                     </button>
                 </div>
             </div>
-            <div className='relative'>
+            <div className='relative' >
                 <Image
-                    src='/images/fried-chicken.png'
+                    src='/images/yubu-round.png'
                     className='object-contain'
                     fill
-                    alt='chicken'
+                    alt='yubu tray'
                 />
-            </div>
+            </div >
         </div>
     )
 }
